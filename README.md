@@ -21,16 +21,16 @@
 sudo pip install "library"
  ```
  <br>
- </p?
+ </p>
 ## Changing Variables
-  <img src="images/conversion.jpg" alt="conversion"/>
+  <img src="images/conversion.jpg" alt="conversion" width "300/>
   <br>
   In original code for the Hackathon, we converted to MUR based off the dollar. To conver to any other currency, do your currency times conversion rate of other currency.
   <br>
   <br>
   <br>
 
-  <img src = "images/api.jpg" alt="jpg"/>
+  <img src = "images/api.jpg" alt="jpg" width"300"/>
   <br>
   Change the api key linked to the coinbase wallet to your api wallet key.
   <br>
