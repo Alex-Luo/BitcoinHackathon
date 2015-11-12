@@ -6,9 +6,8 @@
     <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT Licensed" />
   </a>
   <br>
+  <br>
   SMS implimentation to receive your Coinbase balance.
-  <br>
-  <br>
   <br>
 </p>
 ## Issues
