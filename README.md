@@ -24,21 +24,21 @@ sudo pip install "library"
  <br>
  </p>
 ## Changing Variables
-  <img src="images/conversion.jpg" alt="conversion" width "300/>
+  <img src="images/conversion.png" alt="conversion" width "300/>
   <br>
   In original code for the Hackathon, we converted to MUR based off the dollar. To conver to any other currency, do your currency times conversion rate of other currency.
   <br>
   <br>
   <br>
 
-  <img src = "images/api.jpg" alt="jpg" width"300"/>
+  <img src = "images/api.png" alt="api" width"300"/>
   <br>
   Change the api key linked to the coinbase wallet to your api wallet key.
   <br>
   <br>
   <br>
 
-  <img src="images/email.jpg" alt="email"/>
+  <img src="images/email.png" alt="email"/>
   <br>
   Here you link your number and email. Realize your service providor may be different when sending a message to an email account. 
 
