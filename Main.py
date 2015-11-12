@@ -16,7 +16,7 @@ import email
 url = "http://blockchain.info/ticker"
 response = requests.get(url)
 USD = (json.loads(response.text)['USD']['last'])
-MUR = round((USD * 31),2)
+MUR = round((USD * 31),2) #formula for dollar to MUR
 mmsg = ('1 Bitcoin = ' + str(MUR) + ' MUR')
 USD = str(USD)
 print (mmsg)
@@ -38,8 +38,8 @@ print ('Balance is ' +str(tmur) )
 
 
 # Create the message
-fromaddr = 'hackathoncu@gmail.com'
-toaddrs  = '8479777447@txt.att.net'
+fromaddr = 'user@gmail.com'
+toaddrs  = '#phonenumber@txt.providor.net'
 msg1 = (bmsg + '              ' + str(tmur) + ' MUR' + '                                     ' + mmsg)
 
 
@@ -47,8 +47,8 @@ msg1 = (bmsg + '              ' + str(tmur) + ' MUR' + '                        
 server = smtplib.SMTP("smtp.gmail.com:587")
 server.starttls()
 
-username = 'hackathoncu@gmail.com'
-password = 'pinky2228'
+username = 'user@gmail.com'
+password = 'password'
 
 server.login(username,password)
 
@@ -57,7 +57,7 @@ server.login(username,password)
     
         
 mail = imaplib.IMAP4_SSL('imap.gmail.com')
-mail.login('hackathoncu@gmail.com', 'pinky2228')
+mail.login('user@gmail.com', 'password')
 mail.list()
 # Out: list of "folders" aka labels in gmail.
 mail.select("inbox") # connect to inbox.
@@ -102,8 +102,8 @@ def process_mailbox(mail):
         msg = email.message_from_string(msg)
         decode = email.header.decode_header(msg['From'])[0]
         msg = (decode[0])
-        if (msg == '8479777447@txt.att.net'):
-            server.sendmail('hackathoncu@gmail.com', '8479777447@txt.att.net', msg1)
+        if (msg == 'phonenumber@txt.providor.net'):
+            server.sendmail('user@gmail.com', 'phonenumber@txt.providor.net', msg1)
             server.quit()
             
 
