@@ -10,6 +10,7 @@
 
 
 <br>
+</p>
 ## Installing Coinbase and Libraries
  ```shell
  sudo pip install Coinbase
