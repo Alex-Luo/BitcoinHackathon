@@ -3,11 +3,15 @@
   <img src="images/bitcoin.jpg" alt="logo" width="300"/>
 
   <br>
-  SMS implimentation where you send a message to your email address to receive your online Coinbase wallet and a real time transaction rate.
+  SMS implimentation to receive your Coinbase balance.
   <br>
   <br>
   <br>
-
+</p>
+## Issues
+Currently, to make the code work you must run the program in terminal and have it continuous run the loop. Once the loop is going, if you send a text message to your email address, you'll then get your account balance and transaction rates.
+## Future Plans
+I hope to create a server to actually recieve in messages from the phone and get rid of the email system that is set up currently.
 
 <br>
 </p>
@@ -51,6 +55,4 @@ Currently the program only works if you run it off terminal and leave it looping
 you will recieve your account balance back. 
 </b>
 
-</p>
-## Future plans
-I hope to create a server to actually recieve in messages from the phone and get rid of the email system that is set up currently.
+
