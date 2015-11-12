@@ -17,7 +17,7 @@
 ```
  <br>
  <br>
- installing additional libraries
+ The code also has additional libaries, most of which will need to be installed. Extra libaries can be installed as such
 ```shell
 sudo pip install "library"
  ```
