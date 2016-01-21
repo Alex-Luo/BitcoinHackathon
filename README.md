@@ -25,7 +25,7 @@ I hope to create a server to actually recieve in messages from the phone and get
  <br>
  The code also has additional libaries, most of which will need to be installed. Extra libaries can be installed as such
 ```shell
-sudo pip install "library"
+sudo pip install "library_name"
  ```
  <br>
  </p>
